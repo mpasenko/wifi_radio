@@ -15,7 +15,7 @@ GyverOLED<SSH1106_128x64> oled(0x3C);
 EncButton2<EB_ENCBTN, EB_TICK> enc(INPUT_PULLUP, D5, D6, D7);
 
 uint8_t oledContrast = 10;
-uint8_t batCharge = 7;
+uint8_t batCharge = 6;
 
 
 
